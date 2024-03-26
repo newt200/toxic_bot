@@ -9,7 +9,7 @@
 * model.pkl – сохраненная обученная модель
 * tg_bot2024.py – основной код для бота
 # Установка и использование
-Чтобы запустить бота локально, нужно установить библиотеки следующих версий, которые указаны в файле [requirements.txt](https://github.com/newt200/toxic_bot/blob/main/requirements.txt), также скачать предобученную в google colab модель [model.pkl](https://github.com/newt200/toxic_bot/blob/main/model.pkl) и папку с картинками [pictures.zip](https://github.com/newt200/toxic_bot/blob/main/pictures.zip) (но все это можно получить, запустив код в коллабе)
+Чтобы запустить бота локально, нужно установить библиотеки следующих версий, которые указаны в файле [requirements.txt](https://github.com/newt200/toxic_bot/blob/main/requirements.txt), также скачать предобученную в google colab модель [model.pkl](https://github.com/newt200/toxic_bot/blob/main/model.pkl) и папку с картинками [pictures.zip](https://github.com/newt200/toxic_bot/blob/main/pictures.zip) (но все это можно получить, запустив код в коллабе). Бот выложен на python-anywhere.
 # Данные
 ## Обучение
 Для обучения модели, которая может определять, является ли текст токсичным, я использовала датасет `labeled.txt`, который также можно скачать с [kaggle.com](https://www.kaggle.com/datasets/blackmoon/russian-language-toxic-comments).
