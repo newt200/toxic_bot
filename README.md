@@ -1,7 +1,7 @@
 # Toxic_bot
 [Тг-бот](https://t.me/DontBeToxic_bot) умеет определять уровень токсичности сообщения, а также выдает статистику с форума [woman.ru](https://www.woman.ru/forum/)
 # Установка и использование
-Чтобы запустить бота локально, нужно установить библиотеки следующих версий, который указаны в файле [requirements.txt](https://github.com/newt200/toxic_bot/blob/main/requirements.txt)
+Чтобы запустить бота локально, нужно установить библиотеки следующих версий, который указаны в файле [requirements.txt](https://github.com/newt200/toxic_bot/blob/main/requirements.txt), также скачать предобученную в google colab модель [model.pkl](https://github.com/newt200/toxic_bot/blob/main/model.pkl) и папку с картинками [pictures.zip](https://github.com/newt200/toxic_bot/blob/main/pictures.zip) (но все это можно получить, запусти код в коллабе)
 # Данные
 ## Обучение
 Для обучения модели, которая может определять, является ли текст токсичным, я использовала датасет `labeled.txt`, который также можно скачать с [kaggle.com](https://www.kaggle.com/datasets/blackmoon/russian-language-toxic-comments).
